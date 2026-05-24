@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f7fb;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #1e3a8a;
+  text-align: center;
+}
+
+h2 {
+  color: #2563eb;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.lead-card {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.status-buttons button {
+  margin-right: 8px;
+  background: #e2e8f0;
+  color: black;
+}
+
+.status-buttons button:hover {
+  background: #cbd5e1;
+}
+
+.status-new {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.status-contacted {
+  color: orange;
+  font-weight: bold;
+}
+
+.status-converted {
+  color: green;
+  font-weight: bold;
+}
